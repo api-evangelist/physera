@@ -1,24 +1,60 @@
 aid: physera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/physera.png
 name: Physera
-description: 'Physera is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Physera was a virtual physical therapy (musculoskeletal) startup that
+  provided members video access to a nationwide network of licensed physical therapists
+  for diagnosis and treatment, along with in-application 3D exercise animations, voice
+  prompts, computer-vision range-of-motion measurement, and asynchronous messaging.
+  Backed by Lux Capital, Physera was acquired by Omada Health in May 2020 (reported
+  ~$30M) and now operates as the "Omada MSK by Physera" digital care program; the
+  physera.com domain redirects to omadahealth.com/musculoskeletal. This profile was
+  added to the API Evangelist network as a portfolio-lead stub; enrichment found no
+  public API, developer portal, OpenAPI/AsyncAPI surface, or documented event/webhook
+  surface — it is a member-facing clinical product with no first-party developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/physera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lux-capital
+x-acquired-by: omada-health
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Physical Therapy
+- Musculoskeletal
+- Telehealth
+- Digital Health
+- Virtual Care
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.omadahealth.com/musculoskeletal
+- type: Support
+  url: https://support.omadahealth.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
