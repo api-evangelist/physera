@@ -69,3 +69,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 0
   pass: local-v1
+x-parent: omada-health
+x-relationship: product
