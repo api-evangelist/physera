@@ -1,0 +1,26 @@
+# Front Door AI Index — physera — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: physera
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.omadahealth.com
+  final_host: www.omadahealth.com
+  ownership: shared
+  owner: omada-health
+  shares_host_with:
+  - omada-health
+  inherited_from: null
+  verdict: silent
+  score: null
+  host_score: 0
+  density: null
+  words: 2249
+  tiers:
+    agentic: 0
+    core: 0
+    model: 0
+  ambiguous: 6
+  top_terms:
+    smart: 6
